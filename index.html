@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pig-Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="display-4 text-center text-weight-bold">Pig-Game</h1>
+        <p class="lead text-center my-4">Note: <strong>Be afraid of 1.</strong></p>
+        <div class="text-center">
+            <label>Enter Highest Score: </label>
+            <input class="form-group rounded border-secondary" type="number" value="50">
+        </div>
+        
+        <div class="jumbotron bg-light shadow">
+            <div class="row ">
+
+                <div id="player-0" class="col-md-5 text-center fade-player">
+                    <h1 id="name-0" class="display-4">PLAYER 1</h1>
+                    <span id="score-0" class="scores display-1">0</span>
+                    <div class="current_score_board shadow">
+                        <p class="mb-0">CURRENT</p>
+                        <span id="current-0" class="current_score">0</span>
+                    </div>
+                </div>
+
+                <div class="col text-center">
+                    <span id="new-game" class="button"><i class="fal fa-plus-circle"></i> NEW GAME</span>
+                    <br>
+                    <div id="hide-content">
+                        <img id="dice" class="shadow" src="dice-0.png" width="120px" height="120px">
+                        <br>
+                        <span id="roll-dice" class="button"><i class="fal fa-sync"></i> ROLL DICE</span>
+                        <br>
+                        <hr>
+                        <span id="hold" class="button"><i class="fal fa-chevron-circle-down"></i> HOLD</span>
+                    </div>
+                </div>
+
+                <div id="player-1" class="col-md-5 text-center fade-player">
+                    <h1 id="name-1" class="display-4">PLAYER 2</h1>
+                    <span id="score-1" class="scores display-1">0</span>
+                    <div class="current_score_board shadow">
+                        <p class="mb-0">CURRENT</p>
+                        <span id="current-1" class="current_score">0</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="app.js" ></script>
+    </body>
+</html>

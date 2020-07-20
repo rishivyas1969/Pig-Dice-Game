@@ -1,0 +1,63 @@
+body {
+    font-family: roboto ;
+    background-image: url(back.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.jumbotron {
+    max-width: 1200px ;
+    margin: auto auto;
+    margin-top: 8em;
+}
+
+.button {
+    font-size: 1.5em;
+    margin: 1.2em 0 ;
+    opacity: 0.8;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 1;
+    text-shadow: black;
+}
+
+i {
+    color: rgb(255, 115, 0);
+}
+
+.scores {
+    color: rgb(248, 138, 47);
+}
+
+.current_score_board {
+    background-color: rgb(251, 151, 69);
+    max-width: 150px;
+    margin: auto;
+    margin-top: 7em;
+    color: white;
+}
+
+.current_score {
+    font-size: 2em;
+}
+
+img {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.fade-player {
+    opacity: 0.5;
+}
+
+.hide-content {
+    display: none;
+}
+
+input {
+    width: 500px;
+}
